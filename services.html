@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+    -->
+  <title>Fom Frizerul - Barber & Hair Cutting</title>
+  <meta name="title" content="Fom Frizerul - Barber & Hair Cutting">
+  <meta name="description" content="This is a site created by stoianrb">
+
+  <!-- 
+    - favicon
+    -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+    -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+    -->
+  <link rel="stylesheet" href="css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+    -->
+  <link rel="preload" as="image" src="images/cover.jpg" />
+
+</head>
+
+<body>
+  <!-- 
+    - #SERVICE
+-->
+
+  <section class="section service" id="services" aria-label="services">
+    <div class="container">
+
+      <div class="title-wrapper">
+
+        <div>
+          <h2 class="h2 section-title">Servicii</h2>
+
+          <p class="section-text">
+           Sper sa iti place munca mea.
+          </p>
+        </div>
+
+        <a href="index.html" class="btn has-before">
+          <span class="open">Acasa</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+
+      <h2 class="h2 section-title text-center">Serviciile Mele</h2>
+
+      <p class="section-text text-center">
+        Acestea sunt serviciile pe care le ofer.
+      </p>
+
+      <ul class="grid-list">
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <i class="flaticon-salon"></i>
+            </div>
+
+            <h3 class="h3">
+              <a href="images/cover.jpg" class="card-title">Hair Cutting Style</a>
+            </h3>
+
+            <p class="card-text">
+              Pret.
+            </p>
+
+            <a href="images/cover.jpg" class="card-btn" aria-label="more">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <i class="flaticon-shampoo"></i>
+            </div>
+
+            <h3 class="h3">
+              <a href="images/cover.jpg" class="card-title">Hair Washing</a>
+            </h3>
+
+            <p class="card-text">
+              Pret.
+            </p>
+
+            <a href="images/cover.jpg" class="card-btn" aria-label="more">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <i class="flaticon-shaving-razor"></i>
+            </div>
+
+            <h3 class="h3">
+              <a href="images/pricing-2.jpg" class="card-title">Shave & Beard Trimmer</a>
+            </h3>
+
+            <p class="card-text">
+              Pret.
+            </p>
+
+            <a href="images/pricing-2.jpg" class="card-btn" aria-label="more">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <div class="card-icon">
+              <i class="flaticon-hair-dye"></i>
+            </div>
+
+            <h3 class="h3">
+              <a href="images/pricing-2.jpg" class="card-title">Beards Hair Colors</a>
+            </h3>
+
+            <p class="card-text">
+              Pret.
+            </p>
+
+            <a href="images/pricing-2.jpg" class="card-btn" aria-label="more">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- 
+    - #PRICING
+-->
+
+  <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+    style="background-image: url('images/pricing-bg.jpg')">
+    <div class="container">
+
+      <h2 class="h2 section-title text-center">Preturi minunate</h2>
+
+      <p class="section-text text-center">
+        Ai nevoie de un frizer? Te astept cu o programare si nu iti va parea rau.
+      </p>
+
+      <div class="price-tab-container">
+
+        <ul class="tab-filter">
+
+          <li>
+            <button class="filter-btn active" data-filter-btn="all">
+              <div class="btn-icon">
+                <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Preturi</p>
+            </button>
+          </li>
+
+          <li>
+            <button class="filter-btn" data-filter-btn="face-washing">
+              <div class="btn-icon">
+                <i class="flaticon-spa" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Spalat</p>
+            </button>
+          </li>
+
+          <li>
+            <button class="filter-btn" data-filter-btn="shaving">
+              <div class="btn-icon">
+                <i class="flaticon-razor-blade" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Ras facial & capilar</p>
+            </button>
+          </li>
+
+          <li>
+            <button class="filter-btn" data-filter-btn="face-washing">
+              <div class="btn-icon">
+                <i class="flaticon-spa" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Spalat</p>
+            </button>
+          </li>
+
+          <li>
+            <button class="filter-btn" data-filter-btn="scissors">
+              <div class="btn-icon">
+                <i class="flaticon-scissors" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Tuns barba si contur</p>
+            </button>
+          </li>
+
+          <li>
+            <button class="filter-btn" data-filter-btn="hair-colors">
+              <div class="btn-icon">
+                <i class="flaticon-hair-dye" aria-hidden="true"></i>
+              </div>
+
+              <p class="btn-text">Vopsit barba si par</p>
+            </button>
+          </li>
+
+        </ul>
+
+        <ul class="grid-list">
+
+          <li data-filter-btn="shaving">
+            <div class="pricing-card">
+
+              <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                <img src="images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting" class="img-cover">
+              </figure>
+
+              <div class="wrapper">
+                <h3 class="h3 card-title">Tuns</h3>
+
+                <p class="card-text">Clean & simple 30 - 40 minutes</p>
+              </div>
+
+              <data class="card-price" value="50">50RON</data>
+            </div>
+          </li>
+
+          <li data-filter="shaving">
+            <div class="pricing-card">
+
+              <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                <img src="images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial" class="img-cover">
+              </figure>
+
+              <div class="wrapper">
+                <h3 class="h3 card-title">Ras facial</h3>
+
+                <p class="card-text">Clean & simple 30-40 minutes</p>
+              </div>
+
+              <data class="card-price" value="40">40RON</data>
+
+            </div>
+          </li>
+
+          <li data-filter="face-washing">
+            <div class="pricing-card">
+
+              <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                <img src="images/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash" class="img-cover">
+              </figure>
+
+              <div class="wrapper">
+                <h3 class="h3 card-title">Spalat</h3>
+
+                <p class="card-text">Clean & simple 30-40 minutes</p>
+              </div>
+
+              <data class="card-price" value="20">20RON</data>
+
+            </div>
+          </li>
+
+          <li data-filter="shaving">
+            <div class="pricing-card">
+
+              <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                <img src="images/pricing-2.jpg" width="90" height="90" alt="Hair Color & Wash" class="img-cover">
+              </figure>
+
+              <div class="wrapper">
+                <h3 class="h3 card-title">Tuns barba si contur</h3>
+
+                <p class="card-text">Clean & simple 30-40 minutes</p>
+              </div>
+
+              <data class="card-price" value="40">40RON</data>
+
+            </div>
+          </li>
+
+          <li data-filter="face-washing">
+            <div class="pricing-card">
+
+              <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                <img src="images/pricing-2.jpg" width="90" height="90" alt="Hair Color & Wash" class="img-cover">
+              </figure>
+
+              <div class="wrapper">
+                <h3 class="h3 card-title">Vopsit barba</h3>
+
+                <p class="card-text">Clean & simple 30-40 minutes</p>
+              </div>
+
+              <data class="card-price" value="30">30RON</data>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 
+    - #FOOTER
+    -->
+
+      <footer class="footer has-bg-image" style="background-image: url(images/cover.jpg);">
+        <div class="container">
+
+          <div class="footer-top">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">
+                Fom Frizerul
+                <span class="span">BARBER</span>
+              </a>
+
+              <form action="" class="input-wrapper">
+
+                <input type="email" name="email_address" placeholder="Enter Your Email" required class="email-field">
+
+                <button type="submit" class="btn has-before">
+                  <span class="span">Abonati-va</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </form>
+
+            </div>
+
+            <div class="footer-link-box">
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Quick Links</p>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Our Service</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Meet Our Team</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Our Portfolio</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">New & Blog</a>
+                </li>
+
+              </ul>
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Servicii</p>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Tuns</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Tuns barba si contur</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link has-before">Vopsit barba</a>
+                </li>
+
+              </ul>
+
+              <ul class="footer-list">
+
+                <!--<li>
+                  <p class="footer-list-title">Recent News</p>
+                </li>
+
+                 <li>
+                  <div class="blog-card">
+
+                    <figure class="card-banner img-holder" style="--width: 70 --height: 75">
+                      <img src="/images/cover.jpg" width="70" height="75" loading="lazy"
+                        alt="Creat special pentru cei care vor sa se tunda repede." class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+                      <h3>
+                        <a href="#" class="card-title"></a>
+                      </h3>
+
+                      <div class="card-date">
+                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                        <time datetime="2023-08-24">24 August 2023</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="blog-card">
+
+                    <figure class="card-banner img-holder" style="--width: 70; --height: 75;">
+                      <img src="images/cover.jpg" width="70" height="75" loading="lazy"
+                        alt="How do I get rid of unwanted hair on my face?" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+                      <h3>
+                        <a href="#" class="card-title">How do I get rid of unwanted hair on my face?</a>
+                      </h3>
+
+                      <div class="card-date">
+                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                        <time datetime="2023-08-24">24 August 2023</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            -->
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Contact</p>
+                </li>
+
+                <li class="footer-list-item">
+                  <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                  <addres class="contact-link">
+                    Soseaua Pantelimon, nr 309, Sector 2
+                  </addres>
+                </li>
+
+                <li class="footer-list-item">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                  <a href="tel:+400770867356" class="contact-link">+40 0770 867 356</a>
+                </li>
+
+                <li class="footer-list-item">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="contact-link">Monday - Friday, 09:00 - 20:00</span>
+                  <span class="contact-link">Saturday, 09:00 - 19:00</span>
+                  <span class="contact-link">Sunday, 09:00 - 15:00</span>
+                </li>
+
+                <li class="footer-list-item">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                  <a href="mailto:stoianrb@gmail.com" class="contact-link">stoianrb@gmail.com</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="footer-bottom">
+            <p class="copyright">
+              &copy; 2023 <a href="#" class="copyright-link">stoianrb</a>. All rights reserved.
+            </p>
+          </div>
+
+        </div>
+      </footer>
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+      <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="js/script.js" defer></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
